@@ -1,0 +1,2080 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Vollkorn&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+    
+
+body{
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Vollkorn&display=swap');
+    background-color: black;
+    color: white;
+
+}
+h1{
+    margin: 0%;
+    border: 0%;
+    background-color:black;
+    color: aliceblue;
+}
+
+.header-{
+    grid-area: header;
+}
+
+li{
+font-size: x-large;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    display: grid;
+    margin-top: 80px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+    grid-area: list;
+
+}
+
+.imagen-principal{
+
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 450px;
+
+}
+.main-{
+    display: grid;
+    grid-area: mainin;
+
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+
+}
+
+.what-tebori{
+
+
+    font-size: x-large;
+}
+
+footer{
+
+    font-size: x-large;
+
+    margin-top: 650px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 950px;
+}
+
+
+
+
+.footer-in{
+    display: grid;
+    grid-area: footerin;
+}
+
+.body-index{
+    display: grid;
+    grid-template-areas: 
+    "h1 header"
+    ""
+
+    "mainin"
+
+    " footerin";
+
+    grid-template-columns: 1fr;
+}
+
+
+.header-soushinbori{
+    display: grid;
+
+    grid-area: headersou;
+}
+
+.main-soushin{
+    display: grid;
+    grid-area: mainsou;
+    justify-items: center;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-bottom: 150px;
+    padding-left: 2px;
+}
+
+
+
+
+
+.body-soushinbori{
+    display: grid;
+
+grid-template-areas: 
+"h1"
+"headersou"
+"mainsou";
+
+grid-template-columns: 1fr;
+
+}
+
+.header-mune{
+
+    display: grid;
+
+    grid-area: headermu;
+
+}
+
+.main-mune{
+    display: grid;
+
+    grid-area: mainmune;
+
+    justify-items: center;
+
+    
+
+}
+
+
+.footermu{
+    display: grid;
+    grid-area: footermu;
+}
+
+.body-munewari{
+    display: grid;
+
+    grid-template-areas: 
+    "h1 headermu"
+    ""
+    "mainmune" 
+    "footermu";
+    grid-template-columns: 1fr;
+}
+
+
+.parra-dife{
+    font-size: large;
+}
+
+
+.header-dife{
+
+    grid-area: headife;
+}
+
+.main-dife{
+
+    grid-area: maindife;
+}
+
+.footer-dife{
+
+    grid-area: footdi;
+}
+
+
+
+.body-diferencias{
+
+display: grid;
+
+grid-template-areas: 
+"h1"
+"headife"
+"maindife"
+" footdi";
+
+grid-template-columns: 1fr;
+
+}
+
+
+.header-artist{
+    
+    grid-area: headar;
+}
+
+.main-artistas{
+
+    grid-area: mainar;
+}
+
+.footer-artista{
+
+    grid-area: footar;
+}
+
+.body-artistas{
+
+    display: grid;
+
+    grid-template-areas: 
+    "h1"
+    "headar"
+    "mainar"
+    "footar";
+    grid-template-columns: 1fr;
+}
+
+
+.munegal{
+    display: grid;
+gap: 50px;
+
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+
+}
+
+.soushingal{
+    display: grid;
+gap: 150px;}
+
+.fondo-prin{
+    height: 80%;
+    width: 60%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 400px;
+    
+}
+
+
+.munegal{
+    height: 100%;
+    width: 60%;
+    margin-top: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left:550px ;
+}
+.grey{
+    background-color: gray;
+}
+nav{
+    display: block;
+    visibility: visible;
+}
+
+
+.imgmu:hover{
+    transform: scale(1.2);
+}
+.imgmu{
+    transition-property: all;
+}
+
+.navbut{
+    background-color: grey;
+}
+.difeimg{
+    margin-top: 3%;
+}
+
+.difeimg:hover{
+    transform: scale(1.2);
+}
+
+.parra-dife{
+    margin-top: 5%;
+    font-size: larger;
+}
+.fondo-prin:hover{
+    transform: scale(1.1);
+}
+
+
+
+@media (min-width:320px ){
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    
+        
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1{
+        margin: 0%;
+        border: 0%;
+    }
+    
+    .header-{
+        grid-area: header;
+    }
+    
+    li{
+    font-size: x-large;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        justify-content: space-between;
+        grid-area: list;
+    
+    }
+    
+    .imagen-principal{
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 450px;
+    
+    }
+    .main-{
+        display: grid;
+        grid-area: mainin;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    }
+    
+    .what-tebori{
+    
+    
+        font-size: x-large;
+    }
+    
+    footer{
+    
+        font-size: x-large;
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 950px;
+    }
+    
+    
+    
+    
+    .footer-in{
+        display: grid;
+        grid-area: footerin;
+    }
+    
+    .body-index{
+        display: grid;
+        grid-template-areas: 
+        "h1"
+        "header"
+    
+        "mainin"
+    
+        " footerin";
+    
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .header-soushinbori{
+        display: grid;
+    
+        grid-area: headersou;
+    }
+    
+    .main-soushin{
+        display: grid;
+        grid-area: mainsou;
+        justify-items: center;
+        padding-top: 5px;
+        padding-right: 2px;
+        padding-bottom: 150px;
+        padding-left: 2px;
+    }
+    
+    
+    
+    
+    
+    .body-soushinbori{
+        display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headersou"
+    "mainsou";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    .header-mune{
+    
+        display: grid;
+    
+        grid-area: headermu;
+    
+    }
+    
+    .main-mune{
+        display: grid;
+    
+        grid-area: mainmune;
+    
+        justify-items: center;
+    
+    
+    
+    }
+    
+    .footer-mune{
+        display: grid;
+        grid-area: footermu;
+    }
+    
+    .body-munewari{
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headermu"
+        "mainmune" 
+        "footermu";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .parra-dife{
+        font-size: large;
+    }
+    
+    
+    .header-dife{
+    
+        grid-area: headife;
+    }
+    
+    .main-dife{
+    
+        grid-area: maindife;
+    }
+    
+    .footer-dife{
+    
+        grid-area: footdi;
+    }
+    
+    
+    
+    .body-diferencias{
+    
+    display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headife"
+    "maindife"
+    " footdi";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    
+    .header-artist{
+        
+        grid-area: headar;
+    }
+    
+    .main-artistas{
+    
+        grid-area: mainar;
+    }
+    
+    .footer-artista{
+    
+        grid-area: footar;
+    }
+    
+    .body-artistas{
+    
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headar"
+        "mainar"
+        "footar";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .munegal{
+        display: grid;
+    gap: 150px;
+    
+    }
+    
+    .soushingal{
+        display: grid;
+    gap: 150px;
+    
+    }
+
+    .img{
+height: 100%;
+width: 100%;
+
+    }
+
+    
+.munegal{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+}
+
+@media (min-width:600px){
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    
+        
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1{
+        margin: 0%;
+        border: 0%;
+    }
+    
+    .header-{
+        grid-area: header;
+    }
+    
+    li{
+    font-size: x-large;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        justify-content: space-between;
+        grid-area: list;
+    
+    }
+    
+    .imagen-principal{
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 450px;
+    
+    }
+    .main-{
+        display: grid;
+        grid-area: mainin;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    }
+    
+    .what-tebori{
+    
+    
+        font-size: x-large;
+    }
+    
+    footer{
+    
+        font-size: x-large;
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 950px;
+    }
+    
+    
+    
+    
+    .footer-in{
+        display: grid;
+        grid-area: footerin;
+    }
+    
+    .body-index{
+        display: grid;
+        grid-template-areas: 
+        "h1"
+        "header"
+    
+        "mainin"
+    
+        " footerin";
+    
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .header-soushinbori{
+        display: grid;
+    
+        grid-area: headersou;
+    }
+    
+    .main-soushin{
+        display: grid;
+        grid-area: mainsou;
+        justify-items: center;
+        padding-top: 5px;
+        padding-right: 2px;
+        padding-bottom: 150px;
+        padding-left: 2px;
+    }
+    
+    
+    
+    
+    
+    .body-soushinbori{
+        display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headersou"
+    "mainsou";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    .header-mune{
+    
+        display: grid;
+    
+        grid-area: headermu;
+    
+    }
+    
+    .main-mune{
+        display: grid;
+    
+        grid-area: mainmune;
+    
+        justify-items: center;
+    
+    
+    
+    }
+    
+    .footer-mu{
+        display: grid;
+        grid-area: footermu;
+
+    }
+    
+    .body-munewari{
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headermu"
+        "mainmune" 
+        "footermu";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .parra-dife{
+        font-size: large;
+    }
+    
+    
+    .header-dife{
+    
+        grid-area: headife;
+    }
+    
+    .main-dife{
+    
+        grid-area: maindife;
+    }
+    
+    .footer-dife{
+    
+        grid-area: footdi;
+    }
+    
+    
+    
+    .body-diferencias{
+    
+    display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headife"
+    "maindife"
+    " footdi";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    
+    .header-artist{
+        
+        grid-area: headar;
+    }
+    
+    .main-artistas{
+    
+        grid-area: mainar;
+    }
+    
+    .footer-artista{
+    
+        grid-area: footar;
+    }
+    
+    .body-artistas{
+    
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headar"
+        "mainar"
+        "footar";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .munegal{
+        margin: 0%;
+        padding: 0%;
+        display: grid;
+        gap: 50px;
+        height: 120%;
+        width: 100%;
+        margin-top: 5px;
+        margin-right: 230px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        align-items: baseline;
+        justify-items: end;
+    
+
+    }
+    
+    .soushingal{
+        display: grid;
+    gap: 150px;
+    
+    }
+
+    img{
+        height: 70%;
+        width: 50%;
+    }
+}
+
+@media (min-width: 700px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    
+        
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1{
+        margin: 0%;
+        border: 0%;
+    }
+    
+    .header-{
+        grid-area: header;
+    }
+    
+    li{
+    font-size: x-large;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        justify-content: space-between;
+        grid-area: list;
+    
+    }
+    
+    .imagen-principal{
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+        margin-left: 45%;
+    
+    }
+    .main-{
+        display: grid;
+        grid-area: mainin;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    }
+    
+    .what-tebori{
+    
+    
+        font-size: x-large;
+    }
+    
+    footer{
+    
+        font-size: x-large;
+    
+        margin-top: 600px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 950px;
+    }
+    
+    
+    
+    
+    .footer-in{
+        display: grid;
+        grid-area: footerin;
+    }
+    
+    .body-index{
+        display: grid;
+        grid-template-areas: 
+        "h1"
+        "header"
+    
+        "mainin"
+    
+        " footerin";
+    
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .header-soushinbori{
+        display: grid;
+    
+        grid-area: headersou;
+    }
+    
+    .main-soushin{
+        display: grid;
+        grid-area: mainsou;
+        justify-items: center;
+        padding-top: 5px;
+        padding-right: 2px;
+        padding-bottom: 150px;
+        padding-left: 2px;
+    }
+    
+    
+    
+    
+    
+    .body-soushinbori{
+        display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headersou"
+    "mainsou";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    .header-mune{
+    
+        display: grid;
+    
+        grid-area: headermu;
+    
+    }
+    
+    .main-mune{
+        display: grid;
+    
+        grid-area: mainmune;
+    
+        justify-items: center;
+    
+    
+
+    }
+    
+    .footer-mune{
+        display: grid;
+        grid-area: footermu;
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        
+    }
+    
+    .body-munewari{
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headermu"
+        "mainmune" 
+        "footermu";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .parra-dife{
+        font-size: large;
+    }
+    
+    
+    .header-dife{
+    
+        grid-area: headife;
+    }
+    
+    .main-dife{
+    
+        grid-area: maindife;
+    }
+    
+    .footer-dife{
+    
+        grid-area: footdi;
+    }
+    
+    
+    
+    .body-diferencias{
+    
+    display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headife"
+    "maindife"
+    " footdi";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    
+    .header-artist{
+        
+        grid-area: headar;
+    }
+    
+    .main-artistas{
+    
+        grid-area: mainar;
+    }
+    
+    .footer-artista{
+    
+        grid-area: footar;
+    }
+    
+    .body-artistas{
+    
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headar"
+        "mainar"
+        "footar";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .munegal{
+        display: grid;
+    gap: 50px;
+    
+    }
+    
+    .soushingal{
+        display: grid;
+    gap: 150px;
+    
+    }
+
+    img{
+        height: 70%;
+        width: 50%;
+    }
+
+}
+
+@media (min-width:1024px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    
+        
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1{
+        margin: 0%;
+        border: 0%;
+    }
+    
+    .header-{
+        grid-area: header;
+    }
+    
+    li{
+    font-size: x-large;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        justify-content: space-between;
+        grid-area: list;
+    
+    }
+    
+    .imagen-principal{
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 450px;
+    
+    }
+    .main-{
+        display: grid;
+        grid-area: mainin;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    }
+    
+    .what-tebori{
+    
+    
+        font-size: x-large;
+    }
+    
+    footer{
+    
+        font-size: x-large;
+    
+        margin-top: 600px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 950px;
+    }
+    
+    
+    
+    
+    .footer-in{
+        display: grid;
+        grid-area: footerin;
+    }
+    
+    .body-index{
+        display: grid;
+        grid-template-areas: 
+        "h1"
+        "header"
+    
+        "mainin"
+    
+        " footerin";
+    
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .header-soushinbori{
+        display: grid;
+    
+        grid-area: headersou;
+    }
+    
+    .main-soushin{
+        display: grid;
+        grid-area: mainsou;
+        justify-items: center;
+        padding-top: 5px;
+        padding-right: 2px;
+        padding-bottom: 150px;
+        padding-left: 2px;
+    }
+    
+    
+    
+    
+    
+    .body-soushinbori{
+        display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headersou"
+    "mainsou";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    .header-mune{
+        display: grid;
+    
+        grid-area: headermu;
+    
+    }
+    
+    .main-mune{
+        display: grid;
+    
+        grid-area: mainmune;
+    
+        justify-items: center;
+    
+    
+    }
+
+    .munegal{
+        display: grid;
+    gap: 50px;
+    
+    margin-top: 5px;
+    margin-right: 350px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    align-content: space-evenly;
+    
+    }
+    
+    .footer-mune{
+        display: grid;
+        grid-area: footermu;
+        position: absolute;
+    }
+    
+    .body-munewari{
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headermu"
+        "mainmune" 
+        "footermu";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .parra-dife{
+        font-size: large;
+    }
+    
+    
+    .header-dife{
+    
+        grid-area: headife;
+    }
+    
+    .main-dife{
+    
+        grid-area: maindife;
+    }
+    
+    .footer-dife{
+    
+        grid-area: footdi;
+    }
+    
+    
+    
+    .body-diferencias{
+    
+    display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headife"
+    "maindife"
+    " footdi";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    
+    .header-artist{
+        
+        grid-area: headar;
+    }
+    
+    .main-artistas{
+    
+        grid-area: mainar;
+    }
+    
+    .footer-artista{
+    
+        grid-area: footar;
+    }
+    
+    .body-artistas{
+    
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headar"
+        "mainar"
+        "footar";
+        grid-template-columns: 1fr;
+    }
+    .soushingal{
+        display: grid;
+    gap: 150px;
+    
+    }
+
+    img{
+        height: 70%;
+        width: 50%;
+    }
+}
+
+
+@media (min-width:1980px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    
+        
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    h1{
+        margin: 0%;
+        border: 0%;
+    }
+    
+    .header-{
+        grid-area: header;
+    }
+    
+    li{
+    font-size: x-large;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        justify-content: space-between;
+        grid-area: list;
+    
+    }
+    
+    .imagen-principal{
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 450px;
+    
+    }
+    .main-{
+        display: grid;
+        grid-area: mainin;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    }
+    
+    .what-tebori{
+    
+    
+        font-size: x-large;
+    }
+    
+    footer{
+    
+        font-size: x-large;
+    
+        margin-top: 600px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 950px;
+    }
+    
+    
+    
+    
+    .footer-in{
+        display: grid;
+        grid-area: footerin;
+    }
+    
+    .body-index{
+        display: grid;
+        grid-template-areas: 
+        "h1"
+        "header"
+    
+        "mainin"
+    
+        " footerin";
+    
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .header-soushinbori{
+        display: grid;
+    
+        grid-area: headersou;
+    }
+    
+    .main-soushin{
+        display: grid;
+        grid-area: mainsou;
+        justify-items: center;
+        padding-top: 5px;
+        padding-right: 2px;
+        padding-bottom: 150px;
+        padding-left: 2px;
+    }
+    
+    
+    
+    
+    
+    .body-soushinbori{
+        display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headersou"
+    "mainsou";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    .header-mune{
+    
+        display: grid;
+    
+        grid-area: headermu;
+    
+    }
+    
+    .main-mune{
+        display: grid;
+    
+        grid-area: mainmune;
+    
+        justify-items: center;
+    
+    }
+
+    .munegal{
+        display: grid;
+    gap: 5px;
+    
+    margin-top: 5px;
+    margin-right: 210px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    }
+    
+    .footer-mune{
+        display: grid;
+        grid-area: footermu;
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        
+    }
+    
+    .body-munewari{
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headermu"
+        "mainmune" 
+        "footermu";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .parra-dife{
+        font-size: large;
+    }
+    
+    
+    .header-dife{
+    
+        grid-area: headife;
+    }
+    
+    .main-dife{
+    
+        grid-area: maindife;
+    }
+    
+    .footer-dife{
+    
+        grid-area: footdi;
+    }
+    
+    
+    
+    .body-diferencias{
+    
+    display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headife"
+    "maindife"
+    " footdi";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    
+    .header-artist{
+        
+        grid-area: headar;
+    }
+    
+    .main-artistas{
+    
+        grid-area: mainar;
+    }
+    
+    .footer-artista{
+    
+        grid-area: footar;
+    }
+    
+    .body-artistas{
+    
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headar"
+        "mainar"
+        "footar";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    
+    
+    .soushingal{
+        display: grid;
+    gap: 150px;
+    
+    }
+
+    img{
+        height: 70%;
+        width: 50%;
+    }
+
+}
+
+
+@media (min-width:1201px){
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    
+        
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    h1{
+        margin: 0%;
+        border: 0%;
+    }
+    
+    .header-{
+        grid-area: header;
+    }
+    
+    li{
+    font-size: x-large;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        justify-content: space-between;
+        grid-area: list;
+    
+    }
+    
+    .imagen-principal{
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 450px;
+    
+    }
+    .main-{
+        display: grid;
+        grid-area: mainin;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    }
+    
+    .what-tebori{
+    
+    
+        font-size: x-large;
+    }
+    
+    footer{
+    
+        font-size: x-large;
+    
+        margin-top: 60px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 950px;
+    }
+    
+    
+    
+    
+    .footer-in{
+        display: grid;
+        grid-area: footerin;
+    }
+    
+    .body-index{
+        display: grid;
+        grid-template-areas: 
+        "h1"
+        "header"
+    
+        "mainin"
+    
+        " footerin";
+    
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .header-soushinbori{
+        display: grid;
+    
+        grid-area: headersou;
+    }
+    
+    .main-soushin{
+        display: grid;
+        grid-area: mainsou;
+        justify-items: center;
+        padding-top: 5px;
+        padding-right: 2px;
+        padding-bottom: 150px;
+        padding-left: 2px;
+    }
+    
+    
+    
+    
+    
+    .body-soushinbori{
+        display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headersou"
+    "mainsou";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    .header-mune{
+    
+        display: grid;
+    
+        grid-area: headermu;
+    
+    }
+    
+    .main-mune{
+        display: grid;
+    
+        grid-area: mainmune;
+    
+        justify-items: center;
+    
+    }
+
+    .munegal{
+        display: grid;
+    gap: 5px;
+    margin-top: 5px;
+    margin-right: 350px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    }
+    
+    .footer-mune{
+        display: grid;
+        grid-area: footermu;
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        
+    }
+    
+    .body-munewari{
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headermu"
+        "mainmune" 
+        "footermu";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .parra-dife{
+        font-size: large;
+    }
+    
+    
+    .header-dife{
+    
+        grid-area: headife;
+    }
+    
+    .main-dife{
+    
+        grid-area: maindife;
+    }
+    
+    .footer-dife{
+    
+        grid-area: footdi;
+    }
+    
+    
+    
+    .body-diferencias{
+    
+    display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headife"
+    "maindife"
+    " footdi";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    
+    .header-artist{
+        
+        grid-area: headar;
+    }
+    
+    .main-artistas{
+    
+        grid-area: mainar;
+    }
+    
+    .footer-artista{
+    
+        grid-area: footar;
+    }
+    
+    .body-artistas{
+    
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headar"
+        "mainar"
+        "footar";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    
+    
+    .soushingal{
+        display: grid;
+    gap: 150px;
+    
+    }
+
+    img{
+        height: 70%;
+        width: 50%;
+    }
+
+}
+
+@media (min-width:1440px){
+
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    
+        
+    
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    h1{
+        margin: 0%;
+        border: 0%;
+    }
+    
+    .header-{
+        grid-area: header;
+    }
+    
+    li{
+    font-size: x-large;
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        justify-content: space-between;
+        grid-area: list;
+    
+    }
+    
+    .imagen-principal{
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 450px;
+    
+    }
+    .main-{
+        display: grid;
+        grid-area: mainin;
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+    }
+    
+    .what-tebori{
+    
+    
+        font-size: x-large;
+    }
+    
+    footer{
+    
+        font-size: x-large;
+    
+        margin-top: 600px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 950px;
+    }
+    
+    
+    
+    
+    .footer-in{
+        display: grid;
+        grid-area: footerin;
+    }
+    
+    .body-index{
+        display: grid;
+        grid-template-areas: 
+        "h1"
+        "header"
+    
+        "mainin"
+    
+        " footerin";
+    
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .header-soushinbori{
+        display: grid;
+    
+        grid-area: headersou;
+    }
+    
+    .main-soushin{
+        display: grid;
+        grid-area: mainsou;
+        justify-items: center;
+        padding-top: 5px;
+        padding-right: 2px;
+        padding-bottom: 150px;
+        padding-left: 2px;
+    }
+    
+    
+    
+    
+    
+    .body-soushinbori{
+        display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headersou"
+    "mainsou";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    .header-mune{
+    
+        display: grid;
+    
+        grid-area: headermu;
+    
+    }
+    
+    .main-mune{
+        display: grid;
+    
+        grid-area: mainmune;
+    
+        justify-items: center;
+    
+    }
+
+    .munegal{
+        display: grid;
+    gap: 5px;
+    margin-top: 1%;
+    margin-right: 55%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    }
+    
+    .footer-mune{
+        display: grid;
+        grid-area: footermu;
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        
+    }
+    
+    .body-munewari{
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headermu"
+        "mainmune" 
+        "footermu";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .parra-dife{
+        font-size: large;
+    }
+    
+    
+    .header-dife{
+    
+        grid-area: headife;
+    }
+    
+    .main-dife{
+    
+        grid-area: maindife;
+    }
+    
+    .footer-dife{
+    
+        grid-area: footdi;
+    }
+    
+    
+    
+    .body-diferencias{
+    
+    display: grid;
+    
+    grid-template-areas: 
+    "h1"
+    "headife"
+    "maindife"
+    " footdi";
+    
+    grid-template-columns: 1fr;
+    
+    }
+    
+    
+    .header-artist{
+        
+        grid-area: headar;
+    }
+    
+    .main-artistas{
+    
+        grid-area: mainar;
+    }
+    
+    .footer-artista{
+    
+        grid-area: footar;
+    }
+    
+    .body-artistas{
+    
+        display: grid;
+    
+        grid-template-areas: 
+        "h1"
+        "headar"
+        "mainar"
+        "footar";
+        grid-template-columns: 1fr;
+    }
+    
+    
+    
+    
+    .soushingal{
+        display: grid;
+    gap: 150px;
+    
+    }
+
+    img{
+        height: 70%;
+        width: 50%;
+    }
+
+}
